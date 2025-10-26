@@ -1,0 +1,10 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #888;
+  padding: 20px 0;
+}

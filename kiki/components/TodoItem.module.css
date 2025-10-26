@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.checkbox {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.text {
+  flex: 1;
+  font-size: 16px;
+}
+
+.completed .text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
